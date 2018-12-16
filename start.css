@@ -1,0 +1,9 @@
+.jumbotron {
+  color: black;
+  background-color: lavender;
+  border: 20px solid purple;
+  padding: 20px;
+}
+.player2 {
+  display: block
+}

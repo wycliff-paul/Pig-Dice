@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>play pig-dice</title>
+    <link rel="stylesheet" href="start.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+  </head>
+  <body style="text-align: center;">
+    <div class="jumbotron"><img src="https://cdn.dribbble.com/users/375867/screenshots/1973816/dribbble-flying-pig-game-character-sprite-sheet-sidescroller-game-asset-flying-flappy-animation-gui-mobile-games-gameart-game-art.jpg" height="150px" width="150px">
+      <p>start the game</p>
+      <p class="player1">player1</p>
+    <input id="#player1"></form>
+    <p class="player2">player2</p>
+    <input id="#player2"></form><br><br>
+    <button type="button" name="start" style="border-radius:8px " class="btn-primary">start</button>
+    <button type="button" name="back" style="border-radius:8px " class="btn-primary">back</button>
+    </div>
+    <br>
+    <div class="Display" style="float:left;">
+          <h1><span id="player1"></span>'s Score: <span class="gameStatusDisplay  player1Score">0</span></h1><br>
+          <div id="player1Button">
+          <h2>Player <span class="playerStatus"></span>'s Turn</h2><br>
+          <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2><br>
+          <h2>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></h2><br>
+          <button type="button" class="btn-primary">(Re)Roll!</button>
+                    <button type="button" class="btn-primary">Stop</button>
+                    </div>
+                  </div>
+                  <div class="display2" style="float:6 right;">
+                    <h2><span id="player2"></span>'s Score: <span class="gameStatusDisplay  player1Score">0</span></h2><br>
+                    <div id="player2Button">
+                    <h3>Player <span class="playerStatus"></span>'s Turn</h3><br>
+                    <h3>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h3><br>
+                    <h3>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></h3><br>
+                    <button type="button" class="btn-primary">(Re)Roll!</button>
+                    <button type="button" class="btn-primary">Stop</button>
+                  </div>
+                  </div>
+  </body>
+</html>

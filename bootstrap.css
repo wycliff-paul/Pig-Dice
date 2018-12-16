@@ -47,7 +47,9 @@ a {
 }
 a:active,
 a:hover {
-  outline: 0;
+  outline-color: none;
+  font-size: 28px;
+
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -119,19 +121,20 @@ textarea {
 }
 button {
   overflow: visible;
+  border-radius: 8px
 }
 button,
 select {
-  text-transform: none;
+  text-transform: capitalize;
 }
 button,
-html input[type="button"],
+html input[type="radio"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
-button[disabled],
+button[enabled],
 html input[disabled] {
   cursor: default;
 }
@@ -200,7 +203,7 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
