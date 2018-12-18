@@ -36,10 +36,17 @@ wycliff-paul
 
 
 # input:
+user clicks "play" and see what happens
 
+Evaluate the key-value pairs that will need each object to contain in order for pig dice to play.
+
+ user collects information and tackle differences for pig dice to display.
 
 
 # output:
+
+if the validations fails, it shows some errors message
+else, run and see some graded correct answer.
 
 
 ## contact information
