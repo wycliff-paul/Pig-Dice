@@ -24,7 +24,7 @@ wycliff-paul
 ## Information
 
 
-
+pig-dice game is a game that it is played with two players on different side with a dice to complete toss of dice in numbers range from one to six. the losing and the winning depends on one player tricks to each other .
 
 
 

@@ -9,37 +9,48 @@
     <script src="script.js" type="text/javascript"></script>
   </head>
   <body style="text-align: center;">
-    <div class="jumbotron"><img src="https://cdn.dribbble.com/users/375867/screenshots/1973816/dribbble-flying-pig-game-character-sprite-sheet-sidescroller-game-asset-flying-flappy-animation-gui-mobile-games-gameart-game-art.jpg" height="150px" width="150px">
-      <p>start the game</p>
-      <form id="#signup-form">
-      <label id="player1">player1</label>
-    <input id="#player1" class="form-control" type="text" placeholder="Enter name">
-    <label id="player2">player2</label>
-    <input id="#player2" class="form-control" type="text" placeholder="Enter name" ><br><br>
+  <div class="jumbotron player-setup">
+  <p>start the game</p>
+  <form id="#signup-form">
+  <div class="form-group">
+  <label id="player1-signup">player1</label>
+  <input id="#player1-signup" class="form-control" type="text" placeholder="Enter name">
+  </div>
+  <div class="form group">
+    <label id="player2-signup">player2</label>
+    <input id="#player2-signup" class="form-control" type="text" placeholder="Enter name" ><br><br>
+  </div>
     <button type="button" name="start" style="border-radius:8px " class="btn-primary">start</button>
     <button type="button" name="back" style="border-radius:8px " class="btn-primary">back</button>
     </form>
     </div>
     <br>
     <div class="Display" style="float:left;">
-    <h1>player one: </h1><br>
-    <h2 id="player1Button"></h2>
+      <div class="row">
+    <div class="col-xs-4">
+    <h1>player1: </h1>
+    <h2 id="player1-name"></h2>
     <p>Score: </p><br>
-    <p><span id="player1-total-score"></p><br>
-    <button type="button" class="btn-primary">(Re)Roll!</button>
+    <p><span class="player1-total-score"></span></p>
+    <button type="button" class="btn-primary">(Re)Roll!</button><br>
     <button type="button" class="btn-primary">Stop</button>
+    </div>
+    <div class="col-xs-4 style="text-align:center"">
+    <h3>Rolled Dice</h3>
+    <h4 id="rolled number"></h4>
+    <h3>possible points</h3>
+    <h4 id="rolled-total">0</h4>
+
+    <button id="roll" class="btn-primary">(Re)Roll!</button>
+    <button id="stop" class="btn-primary">Stop</button>
+    <br>
+    <br>
     <p id="player-msg"></p>
     <p id="player-turn-score"></p>
     </div>
-    <h3>rolled Dice</h3>
-    <h4 id="#rolled number">#</h4>
-    <h3>possible points</h3>
-    <h1 id="rolled total">0</h1>
-    <br>
-    <br>
-    <div class="display2" style="float: right;">
-    <h2>player two<h2>
-    <h3 id="player2Button"></h3>
+    <div class="col-xs-4" style="float: right;">
+    <h2>player1: <h2>
+    <h3 id="player2-name"></h3>
     <p>score:</p><br>
     <h4><span class="player2-total-score"></span></h3>
 
